@@ -55,10 +55,6 @@ a:focus {
     width: 100%;
 }
 
-/*#sidebarCollapse{
-    display:none;
-}*/
-
 #sidebar {
     width: 250px;
     position: fixed;
@@ -80,14 +76,8 @@ a:focus {
     background: #6d7fcc;
 }
 
-.user-title{
-    margin:0 0 0 10px;
-    line-height: 36px;
-    color: purple;
-}
-
 #sidebar ul.components {
-    padding: 0 0 20px 0;
+    padding: 20px 0;
     border-bottom: 1px solid #47748b;
 }
 
@@ -185,11 +175,9 @@ a.article:hover {
     }
     #content {
         width: 100%;
-        left:0;
     }
     #content.active {
-        /*width: calc(100% - 250px);*/
-        left:250px;
+        width: calc(100% - 250px);
     }
     #sidebarCollapse span {
         display: none;
